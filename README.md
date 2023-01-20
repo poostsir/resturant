@@ -29,7 +29,7 @@ Install the prerequisites first
 ```sh
 pip install django django-adminlte-3 django-ckeditor pillow 
 ```
-After that, add your domains to ALLOW_HOST and create a database with the desired fields with the following command:(in folder project)
+After that, add your domains to ALLOW_HOSTS to restaurant/settings.py(not in local test) and create a database with the desired fields with the following command:(in folder project)
 
 ```sh
 python manage.py migrate
